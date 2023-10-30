@@ -27,3 +27,17 @@ func removeDuplicates(nums []int) int {
 	}
 	return len(nums)
 }
+
+// maxProfit is test to find the maximum profit from buying and selling stock in given array of prices.
+// https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/
+func maxProfit(prices []int) int {
+
+	var maxProfit int
+	for i := 1; i < len(prices); i++ {
+		if prices[i] > prices[i-1] {
+			maxProfit += prices[i] - prices[i-1]
+		}
+	}
+
+	return maxProfit
+}
