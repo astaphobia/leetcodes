@@ -1,0 +1,18 @@
+mode: set
+github.com/astaphobia/leetcodes/array/array.go:10.39,12.20 1 1
+github.com/astaphobia/leetcodes/array/array.go:12.20,14.3 1 0
+github.com/astaphobia/leetcodes/array/array.go:16.2,16.33 1 1
+github.com/astaphobia/leetcodes/array/array.go:16.33,17.23 1 1
+github.com/astaphobia/leetcodes/array/array.go:17.23,18.9 1 1
+github.com/astaphobia/leetcodes/array/array.go:21.3,21.27 1 1
+github.com/astaphobia/leetcodes/array/array.go:21.27,25.4 3 1
+github.com/astaphobia/leetcodes/array/array.go:28.2,28.18 1 1
+github.com/astaphobia/leetcodes/array/array.go:33.34,36.35 2 1
+github.com/astaphobia/leetcodes/array/array.go:36.35,37.30 1 1
+github.com/astaphobia/leetcodes/array/array.go:37.30,39.4 1 1
+github.com/astaphobia/leetcodes/array/array.go:42.2,42.18 1 1
+github.com/astaphobia/leetcodes/array/array.go:50.32,51.47 1 1
+github.com/astaphobia/leetcodes/array/array.go:51.47,52.32 1 1
+github.com/astaphobia/leetcodes/array/array.go:52.32,55.4 2 1
+github.com/astaphobia/leetcodes/array/array.go:56.3,56.9 1 1
+github.com/astaphobia/leetcodes/array/array.go:60.2,70.8 9 1
