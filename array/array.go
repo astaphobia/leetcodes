@@ -41,3 +41,31 @@ func maxProfit(prices []int) int {
 
 	return maxProfit
 }
+
+// rotate to rotate an array of n elements to the right by k steps.
+// handled with 3 steps:
+//  1. reverse the whole array
+//  1. reverse the first - k elements
+//  2. reverse the k -n elements
+func rotate(nums []int, k int) {
+	var reverse = func(ns []int, start, end int) {
+		for i := start; i < end; i++ {
+			ns[i], ns[end] = ns[end], ns[i]
+			end--
+		}
+		return
+	}
+
+	// make sure k is valid
+	k %= len(nums)
+
+	end := len(nums) - 1
+
+	reverse(nums, 0, end)
+	fmt.Println(nums)
+	reverse(nums, 0, k-1)
+	fmt.Println(nums)
+	reverse(nums, k, end)
+	fmt.Println(nums)
+	return
+}
