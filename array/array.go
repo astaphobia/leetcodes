@@ -2,6 +2,7 @@ package array
 
 import (
 	"fmt"
+	"sort"
 )
 
 // removeDuplicates is test to remove duplicates in a sorted array in-place algorithm
@@ -68,4 +69,16 @@ func rotate(nums []int, k int) {
 	reverse(nums, k, end)
 	fmt.Println(nums)
 	return
+}
+
+// containsDuplicate is to check if an array contains duplicates.
+// https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/578/
+func containsDuplicate(nums []int) bool {
+	sort.Ints(nums)
+	for i := 1; i < len(nums); i++ {
+		if nums[i] == nums[i-1] {
+			return true
+		}
+	}
+	return false
 }
